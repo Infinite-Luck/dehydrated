@@ -128,5 +128,12 @@
 # ACME API version (default: auto)
 #API=auto
 
+# ACME Certificate Profile Selection (default: "")
+# Supported values depend on CA, common examples: "classic", "tlsserver"
+# For more info:
+#   https://letsencrypt.org/2025/01/09/acme-profiles/
+#   https://datatracker.ietf.org/doc/draft-ietf-acme-profiles/
+#ACME_PROFILE=
+
 # Preferred issuer chain (default: <unset> -> uses default chain)
 #PREFERRED_CHAIN=
